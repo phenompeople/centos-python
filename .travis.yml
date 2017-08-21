@@ -10,4 +10,4 @@ before_install:
   - docker build -t phenompeople/centos-python:3.5.2 3.5.2/
 
 script:
-  - docker run -it --rm phenompeople/centos-python:3.5.2 python --version
+  - docker run -it --rm phenompeople/centos-python:3.5.2 python3 --version
