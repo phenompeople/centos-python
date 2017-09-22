@@ -33,6 +33,6 @@ compile_from_source(){
 download_and_extract $PYTHON_SRC_URI
 compile_from_source Python-$PYTHON_VERSION
 wget -q -O /tmp/get-pip.py 'https://bootstrap.pypa.io/get-pip.py'
-python2 /tmp/get-pip.py "pip==$PYTHON_PIP_VERSION"
+python3 /tmp/get-pip.py "pip==$PYTHON_PIP_VERSION"
 rm -rf tmp/get-pip.py /tmp/install.log
 rm -rf $$OURCE_DIR
